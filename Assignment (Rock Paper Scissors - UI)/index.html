@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JavaScript Main Assignment</title>
+</head>
+<body>
+    <section class="game-board">
+        <div class="start-up">
+           <h2>Welcome to our Game <br> of Rock, Paper, Scissors</h2> 
+           <button>Begin</button>
+        </div>    
+
+        <div class="play inactive"><!--  inactive  -->
+            <h2 class="winner">Choose your weapon!</h2>
+            <h3 class="round">Rounds will be counted here</h3>
+            <div class="hands">
+               <img id="left" src="./images/Rock.png" alt="rock"> 
+               <img id="right" src="./images/Rock.png" alt="rock">
+            </div>
+            <div class="player-options">
+                <button id="choice1">Rock</button>
+                <button id="choice2">Paper</button>
+                <button id="choice3">Scissors</button>
+            </div>
+            <div class="scores">
+                <div class="player-score">
+                    <p>0</p>
+                    <h2>Player</h1>
+                </div>
+                <div class="computer-score">
+                    <p>0</p>
+                    <h2>Computer</h1>
+                </div>
+            </div>
+        </div>  
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
